@@ -648,13 +648,17 @@
         "uuid": "a41dad29-4328-40a3-b427-6ea31b74fde8"
       }
     ],
-    "used_designators": "U1-2,D1-4,#PWR1-15,R1-2,J1,F1,C1-8",
+    "used_designators": "U1-2,D1-4,#PWR1-19,R1-4,J1-4,F1,C1-9,SW1-2",
     "variants": []
   },
   "sheets": [
     [
       "a41dad29-4328-40a3-b427-6ea31b74fde8",
       "keyboard-pcb"
+    ],
+    [
+      "bc94a4ef-73e7-4422-8e97-826f4e66b418",
+      "Keyboard Matrix"
     ]
   ],
   "text_variables": {},
