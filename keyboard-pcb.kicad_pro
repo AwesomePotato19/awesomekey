@@ -648,7 +648,7 @@
         "uuid": "a41dad29-4328-40a3-b427-6ea31b74fde8"
       }
     ],
-    "used_designators": "U1-2,D1-97,#PWR1-19,R1-4,J1-4,F1,C1-9,SW1-2,MX1-96",
+    "used_designators": "U1-3,D1-172,#PWR1-58,R1-5,J1-4,F1,C1-106,SW1-2,MX1-96",
     "variants": []
   },
   "sheets": [
@@ -659,6 +659,10 @@
     [
       "bc94a4ef-73e7-4422-8e97-826f4e66b418",
       "Keyboard Matrix"
+    ],
+    [
+      "21d1d3fc-4e33-4264-88a8-3a369f33a01b",
+      "LED Matrix"
     ]
   ],
   "text_variables": {},
