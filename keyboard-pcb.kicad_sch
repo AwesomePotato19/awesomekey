@@ -4124,12 +4124,6 @@
 		(uuid "4d57201d-bcc8-42a8-8774-b5d765446fcf")
 	)
 	(junction
-		(at 41.275 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ac33096-409e-4fed-be45-ce6dc7f81100")
-	)
-	(junction
 		(at 177.165 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4170,6 +4164,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "817ff0cc-98d6-484e-ab43-77c1f776a897")
+	)
+	(junction
+		(at 41.275 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8999ef3d-0bfd-4404-89d2-9565c8883d8f")
 	)
 	(junction
 		(at 127.635 106.045)
@@ -4254,6 +4254,16 @@
 			(type default)
 		)
 		(uuid "0e24e715-1e1a-46d4-8b6a-5ee06e1a9b29")
+	)
+	(wire
+		(pts
+			(xy 38.735 26.67) (xy 38.735 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e465de4-e2dd-4baa-b5e6-40507ad1e19c")
 	)
 	(wire
 		(pts
@@ -4564,16 +4574,6 @@
 			(type default)
 		)
 		(uuid "6ef883bd-587c-44cb-b9c9-67495a4bdd5b")
-	)
-	(wire
-		(pts
-			(xy 38.735 27.94) (xy 38.735 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f6a1e4a-7ed7-4a7f-956f-fb57f34ee7e3")
 	)
 	(wire
 		(pts
@@ -5505,9 +5505,9 @@
 			)
 		)
 	)
-	(global_label "CLK"
+	(global_label "SWCLK"
 		(shape input)
-		(at 62.865 68.58 0)
+		(at 62.865 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5517,7 +5517,7 @@
 		)
 		(uuid "498ea391-736f-4428-8807-1e07b0aab4fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.4183 68.58 0)
+			(at 72.0792 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5625,9 +5625,9 @@
 			)
 		)
 	)
-	(global_label "DATA"
+	(global_label "SWDIO"
 		(shape input)
-		(at 62.865 71.12 0)
+		(at 62.865 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5637,7 +5637,7 @@
 		)
 		(uuid "59c1456f-a741-4fe0-9acd-d3588bdd35d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.265 71.12 0)
+			(at 71.7164 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6406,7 +6406,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 184.785 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6526,7 +6526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 215.265 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6685,7 +6685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 250.825 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6979,7 +6979,7 @@
 		(dnp no)
 		(uuid "38f28a83-6c0d-4a5f-a4c0-bb0a066c1c7e")
 		(property "Reference" "C9"
-			(at 120.904 33.02 0)
+			(at 115.57 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6989,8 +6989,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 120.904 35.56 0)
+		(property "Value" "100nF"
+			(at 112.268 36.068 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7000,7 +7000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 119.38 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7071,7 +7071,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RESET"
+		(property "Value" "BOOT"
 			(at 97.79 33.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7082,7 +7082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 99.06 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7161,7 +7161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
 			(at 224.155 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7321,7 +7321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 210.185 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7400,7 +7400,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 201.295 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7559,7 +7559,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 93.98 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7640,7 +7640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 109.855 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -7797,7 +7797,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 183.515 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7887,7 +7887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 118.745 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -8045,7 +8045,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 95.25 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -8214,7 +8214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
 			(at 132.08 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8295,7 +8295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 273.685 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8532,7 +8532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 136.525 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -8613,7 +8613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127.635 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -8928,7 +8928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 219.71 111.125 0)
 			(hide yes)
 			(show_name no)
@@ -9443,8 +9443,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4878d55-1eec-4575-833f-02dfa07e87d7")
-		(property "Reference" "D2"
-			(at 276.225 59.6198 0)
+		(property "Reference" "D1"
+			(at 275.59 59.6198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9454,7 +9454,7 @@
 			)
 		)
 		(property "Value" "PRTR5V0U2X"
-			(at 276.225 62.1598 0)
+			(at 275.59 62.1598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9511,7 +9511,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -9628,7 +9628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.965 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -9709,7 +9709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 92.075 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -9952,7 +9952,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 93.98 50.8 0)
 			(hide yes)
 			(show_name no)
