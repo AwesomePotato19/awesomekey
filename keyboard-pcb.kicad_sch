@@ -197,7 +197,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -216,7 +216,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -248,7 +248,7 @@
 					)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -281,7 +281,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -370,8 +370,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -572,7 +594,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -656,6 +678,24 @@
 						)
 					)
 					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -786,6 +826,24 @@
 						)
 					)
 					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4225,6 +4283,14 @@
 		(color 0 0 0 0)
 		(uuid "fff073d0-6b10-4df5-8452-da4677d1110a")
 	)
+	(no_connect
+		(at 196.215 59.69)
+		(uuid "4d6454ae-9291-4461-8a30-110c682d3015")
+	)
+	(no_connect
+		(at 196.215 62.23)
+		(uuid "808a65ee-1c68-43bf-aaf3-544c9ba57625")
+	)
 	(wire
 		(pts
 			(xy 215.265 72.39) (xy 215.265 64.77)
@@ -4244,6 +4310,16 @@
 			(type default)
 		)
 		(uuid "075bbff5-0547-4575-aa2f-99ea33c2425c")
+	)
+	(wire
+		(pts
+			(xy 24.765 99.06) (xy 26.035 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac5ed10-c1de-480b-ad43-6b764b396daa")
 	)
 	(wire
 		(pts
@@ -4267,6 +4343,16 @@
 	)
 	(wire
 		(pts
+			(xy 61.595 45.72) (xy 62.865 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8d95aa-5a97-4e34-8578-babf230a131f")
+	)
+	(wire
+		(pts
 			(xy 93.98 39.37) (xy 95.25 39.37)
 		)
 		(stroke
@@ -4284,6 +4370,16 @@
 			(type default)
 		)
 		(uuid "118c8fcd-9cf7-46fe-912c-bfa3449047ca")
+	)
+	(wire
+		(pts
+			(xy 24.765 68.58) (xy 26.035 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b1f2e3-b88c-4b2e-a6cf-274729603701")
 	)
 	(wire
 		(pts
@@ -4407,6 +4503,16 @@
 	)
 	(wire
 		(pts
+			(xy 61.595 38.1) (xy 62.865 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0aeaef-f5ac-4e93-9360-cffe3129aa15")
+	)
+	(wire
+		(pts
 			(xy 262.255 34.29) (xy 273.685 34.29)
 		)
 		(stroke
@@ -4414,6 +4520,16 @@
 			(type default)
 		)
 		(uuid "3a73af0a-7261-4b28-8655-82a6b6df65c0")
+	)
+	(wire
+		(pts
+			(xy 24.765 78.74) (xy 26.035 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3afbcff0-6320-457f-8346-8fb7cd5eb751")
 	)
 	(wire
 		(pts
@@ -4467,6 +4583,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.765 96.52) (xy 26.035 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43b00916-dcc3-4347-a1cd-ad3306c0c08b")
+	)
+	(wire
+		(pts
 			(xy 217.17 100.33) (xy 217.17 120.015)
 		)
 		(stroke
@@ -4474,6 +4600,16 @@
 			(type default)
 		)
 		(uuid "44662f24-0ac7-4867-872f-00ceece039c3")
+	)
+	(wire
+		(pts
+			(xy 61.595 35.56) (xy 62.865 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abac9cd-7df5-47ec-93f6-43773e763e37")
 	)
 	(wire
 		(pts
@@ -4487,6 +4623,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.765 73.66) (xy 26.035 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5ba369-6eb6-4b00-8b25-6d7ba1c8b529")
+	)
+	(wire
+		(pts
 			(xy 100.33 74.295) (xy 107.315 74.295)
 		)
 		(stroke
@@ -4494,6 +4640,16 @@
 			(type default)
 		)
 		(uuid "51b24210-f9d2-4f3f-8af7-92363406cecb")
+	)
+	(wire
+		(pts
+			(xy 24.765 81.28) (xy 26.035 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f6d320-07fd-497b-b9f7-26eae59ac2c7")
 	)
 	(wire
 		(pts
@@ -4517,6 +4673,16 @@
 	)
 	(wire
 		(pts
+			(xy 61.595 73.66) (xy 62.865 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "572dbd79-b4b1-4390-b191-fa8c9400ab81")
+	)
+	(wire
+		(pts
 			(xy 127.635 111.125) (xy 136.525 111.125)
 		)
 		(stroke
@@ -4524,6 +4690,16 @@
 			(type default)
 		)
 		(uuid "5ac31a6c-9d66-430e-ad0a-23cd1e4b0c1d")
+	)
+	(wire
+		(pts
+			(xy 61.595 43.18) (xy 62.865 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d488534-60f4-47c8-8531-898a316be37d")
 	)
 	(wire
 		(pts
@@ -4544,6 +4720,26 @@
 			(type default)
 		)
 		(uuid "5f0857b5-c426-471b-939d-aef47e9d6cd9")
+	)
+	(wire
+		(pts
+			(xy 61.595 55.88) (xy 62.865 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f75f0f6-17a4-4817-90dd-81054feb5860")
+	)
+	(wire
+		(pts
+			(xy 61.595 58.42) (xy 62.865 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f9771c-b441-44cb-b877-8a041ec80dd6")
 	)
 	(wire
 		(pts
@@ -4647,6 +4843,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.765 101.6) (xy 26.035 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4d3d09-61f0-4f91-a962-d3f3e1751518")
+	)
+	(wire
+		(pts
 			(xy 119.38 36.83) (xy 119.38 43.18)
 		)
 		(stroke
@@ -4674,6 +4880,16 @@
 			(type default)
 		)
 		(uuid "82a05ad1-9500-44b1-8bb7-265809d1ba20")
+	)
+	(wire
+		(pts
+			(xy 24.765 76.2) (xy 26.035 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82bcb437-770e-49a9-a99a-4c25f4422d5d")
 	)
 	(wire
 		(pts
@@ -4727,6 +4943,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.765 88.9) (xy 26.035 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc97100-1e99-4960-b58a-f33b9c728e7b")
+	)
+	(wire
+		(pts
 			(xy 100.33 84.455) (xy 107.315 84.455)
 		)
 		(stroke
@@ -4754,6 +4980,16 @@
 			(type default)
 		)
 		(uuid "918144e3-9870-4464-acb6-eedf9aef0921")
+	)
+	(wire
+		(pts
+			(xy 24.765 71.12) (xy 26.035 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92bb6497-48b7-4a00-b140-82b980afc68d")
 	)
 	(wire
 		(pts
@@ -4834,6 +5070,16 @@
 			(type default)
 		)
 		(uuid "99957061-5f5a-4fec-80e4-10b9c05daf68")
+	)
+	(wire
+		(pts
+			(xy 24.765 91.44) (xy 26.035 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adea2e2-a0b4-4d07-a08a-d500af5e3df8")
 	)
 	(wire
 		(pts
@@ -4927,6 +5173,16 @@
 	)
 	(wire
 		(pts
+			(xy 61.595 60.96) (xy 62.865 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3da3df4-7f1e-49a8-8e40-1137e6d9e30b")
+	)
+	(wire
+		(pts
 			(xy 247.015 66.04) (xy 248.285 66.04)
 		)
 		(stroke
@@ -4994,6 +5250,16 @@
 			(type default)
 		)
 		(uuid "b8b943f3-7094-4d5f-9ae3-93430f49d5a3")
+	)
+	(wire
+		(pts
+			(xy 24.765 93.98) (xy 26.035 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe1871b-2861-4a88-be59-3060484153dc")
 	)
 	(wire
 		(pts
@@ -5197,6 +5463,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.765 66.04) (xy 26.035 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3afcb5-0be8-451c-a739-52f8dfc0cbfd")
+	)
+	(wire
+		(pts
 			(xy 273.685 25.4) (xy 269.875 25.4)
 		)
 		(stroke
@@ -5214,6 +5490,16 @@
 			(type default)
 		)
 		(uuid "f004b4b6-659e-44f7-9151-aece72f99102")
+	)
+	(wire
+		(pts
+			(xy 62.865 40.64) (xy 61.595 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0598931-35ea-4b7d-be12-31a3acc0f954")
 	)
 	(wire
 		(pts
@@ -5302,6 +5588,30 @@
 		(uuid "04fa20a2-142c-46e5-9664-29f5350bed89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 68.6926 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "col13"
+		(shape output)
+		(at 62.865 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ebe4c28-e3d7-43ca-a61e-cc404bdfad1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.172 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,6 +5740,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "col11"
+		(shape output)
+		(at 24.765 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40c87c04-75fc-4a72-a462-576137b28b17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.458 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -5673,6 +6007,30 @@
 			)
 		)
 	)
+	(global_label "col7"
+		(shape output)
+		(at 62.865 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e419990-917b-4743-8774-471938cbab6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.9625 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BOOT"
 		(shape output)
 		(at 95.25 39.37 0)
@@ -5718,6 +6076,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape output)
+		(at 24.765 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6630dcbf-dd6b-466f-a873-d7c79c9e438e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.6675 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -5865,6 +6247,30 @@
 			)
 		)
 	)
+	(global_label "col10"
+		(shape output)
+		(at 24.765 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80ef70b7-ccd5-4c32-9380-4c03a10cb928")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.458 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "col13"
 		(shape input)
 		(at 121.285 137.795 90)
@@ -5937,6 +6343,54 @@
 			)
 		)
 	)
+	(global_label "col14"
+		(shape output)
+		(at 62.865 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b95aedd-d74b-4462-ab85-628f68670607")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.172 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "col9"
+		(shape output)
+		(at 24.765 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "945e2f41-2fd2-4db4-873f-c35e97bc66af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.6675 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "col7"
 		(shape input)
 		(at 83.185 137.795 90)
@@ -5961,6 +6415,30 @@
 			)
 		)
 	)
+	(global_label "col2"
+		(shape output)
+		(at 24.765 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4d10df9-5790-47eb-8201-2e45f9f3def0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.6675 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "BOOT"
 		(shape input)
 		(at 24.765 40.64 180)
@@ -5982,6 +6460,102 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape output)
+		(at 24.765 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8409277-8553-4115-aff5-d07e9447fa72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.6675 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col5"
+		(shape output)
+		(at 24.765 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b86fe561-d42a-4bc4-9e9a-66384dcf515f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.6675 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col8"
+		(shape output)
+		(at 24.765 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8aeded3-a988-4401-8670-f3e4d8fade90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.6675 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col6"
+		(shape output)
+		(at 62.865 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b90eb10d-7ea8-42d2-b788-e98eb1dc4acf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.9625 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6081,6 +6655,54 @@
 			)
 		)
 	)
+	(global_label "col12"
+		(shape output)
+		(at 62.865 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5c5abfe-9361-481a-82fd-0f70e590dd9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.172 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "col0"
+		(shape output)
+		(at 62.865 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6539194-9734-4c2c-8dc8-07f5a605ffad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.9625 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "D+"
 		(shape input)
 		(at 197.485 50.8 0)
@@ -6166,6 +6788,30 @@
 		(uuid "f6025909-36c1-4d23-930b-9ce8e0fb7ddb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.0022 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col4"
+		(shape output)
+		(at 24.765 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6b46d86-6e94-42dd-ac72-218ba8986a16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.6675 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6308,7 +6954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01442900-7750-468c-b551-75016bbde2ca")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR06"
 			(at 93.98 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6368,126 +7014,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
-		(at 180.975 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bda50fc-fded-4b12-b2c9-d937de98d6a2")
-		(property "Reference" "J1"
-			(at 180.975 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 180.975 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 184.785 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 184.785 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
-			(at 180.975 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A5"
-			(uuid "4a58688e-0dfb-4a9a-af3e-75bdc95c023c")
-		)
-		(pin "A6"
-			(uuid "8dd4f093-9407-4df2-be9a-b38abef93b6c")
-		)
-		(pin "A9"
-			(uuid "19831c90-f29a-4d89-badf-69bf27067b04")
-		)
-		(pin "B7"
-			(uuid "90ca82f6-2dad-49f5-a970-a5c476cd6b44")
-		)
-		(pin "B9"
-			(uuid "0649cf10-f2d8-4bc8-bae8-9f6306f2dd2c")
-		)
-		(pin "B12"
-			(uuid "cac57c27-7be9-49f2-bdb2-f58301ea8b76")
-		)
-		(pin "A7"
-			(uuid "a8b6747e-c336-4dd7-800f-d7065c7a0e8a")
-		)
-		(pin "A4"
-			(uuid "036eecca-8258-4672-bafc-b10bef38bfe4")
-		)
-		(pin "B5"
-			(uuid "1296045e-d008-4561-baf5-1b8b6ac33241")
-		)
-		(pin "A1"
-			(uuid "e7896cea-0917-4bd0-b4b9-86e0fc3fb215")
-		)
-		(pin "B1"
-			(uuid "ebbe78ac-eb7c-4f24-a724-f8172e114050")
-		)
-		(pin "B4"
-			(uuid "3cacedd3-622e-4ff4-9f9d-a94d864d81b2")
-		)
-		(pin "A12"
-			(uuid "afc0966e-ab52-466a-8cec-1a673288b065")
-		)
-		(pin "B6"
-			(uuid "4a147e55-1218-46be-9567-72de1a0234c3")
-		)
-		(pin "SH"
-			(uuid "e5bba8f7-39e2-4d3d-bf4a-f3ea2d21251e")
-		)
-		(instances
-			(project "keyboard-pcb"
-				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "J1")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6504,7 +7031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e7b9c8c-8549-4130-82a9-5ce0007a478f")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 216.535 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6568,7 +7095,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6586,7 +7113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "119ed706-22d4-4fd9-822f-ea287c921420")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR03"
 			(at 92.075 107.315 0)
 			(hide yes)
 			(show_name no)
@@ -6646,7 +7173,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR07")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6663,7 +7190,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16c1ba56-fcf4-43aa-9eb1-104502571c61")
-		(property "Reference" "C7"
+		(property "Reference" "C92"
 			(at 252.603 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6727,7 +7254,132 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "C7")
+					(reference "C92")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 180.975 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2be6993b-821d-4d3b-bd55-d7aecf25c680")
+		(property "Reference" "J2"
+			(at 180.975 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 180.975 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+			(at 184.785 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 184.785 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 180.975 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B9"
+			(uuid "bd3904e3-de20-47c0-944f-772a17aea9b6")
+		)
+		(pin "B6"
+			(uuid "7d160cb9-3848-4832-8dd4-bd94982b6630")
+		)
+		(pin "B7"
+			(uuid "549764fa-ea35-4207-8b5e-89b8355a4938")
+		)
+		(pin "B8"
+			(uuid "77ebaa72-a9d9-4964-bad0-26e5591c48cd")
+		)
+		(pin "B12"
+			(uuid "99c980db-c177-4717-87ae-14b6813e20a2")
+		)
+		(pin "SH"
+			(uuid "16e97d47-687e-42de-ab6e-763709f27a7f")
+		)
+		(pin "A12"
+			(uuid "c7678cd5-8816-4e92-bf58-91bd3984e1b7")
+		)
+		(pin "B4"
+			(uuid "e33c0a84-8177-4e79-92a9-1f85ad2a1693")
+		)
+		(pin "B1"
+			(uuid "9fc77d78-904b-46e6-99aa-48417df0db26")
+		)
+		(pin "A6"
+			(uuid "44e15536-4be6-4dc7-b556-6c09352832ce")
+		)
+		(pin "A8"
+			(uuid "107a5c18-5369-47eb-8943-dec4294a67dc")
+		)
+		(pin "A9"
+			(uuid "143d6ef5-e7ad-4451-9369-0c4bb8b88bc2")
+		)
+		(pin "B5"
+			(uuid "cc0cdba1-44e1-48b9-a856-43bb292dc002")
+		)
+		(pin "A5"
+			(uuid "3c0f1b62-81dd-4983-a5b5-267deba6263c")
+		)
+		(pin "A4"
+			(uuid "324dbde2-6767-41a8-8f44-08d593c2dabc")
+		)
+		(pin "A1"
+			(uuid "b3670e1f-cde5-4cd3-952f-dd088ea1c257")
+		)
+		(pin "A7"
+			(uuid "2449d164-23de-403e-a66b-e2e7c0bf9eb3")
+		)
+		(instances
+			(project "keyboard-pcb"
+				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6745,7 +7397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cba9efb-1ba5-46e3-8d92-9997a22de089")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR09"
 			(at 123.19 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6805,7 +7457,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR017")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6823,7 +7475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "334d3c12-ac15-4dfd-ba10-26a47a9ae183")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR013"
 			(at 210.185 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6883,7 +7535,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR05")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6901,7 +7553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35ab5730-44e9-401b-9d2e-6d52a9995c0b")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR05"
 			(at 93.98 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -6961,7 +7613,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR018")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6978,7 +7630,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38f28a83-6c0d-4a5f-a4c0-bb0a066c1c7e")
-		(property "Reference" "C9"
+		(property "Reference" "C91"
 			(at 115.57 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7042,7 +7694,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "C9")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -7060,7 +7712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43e54239-113a-43d2-99f9-b0cf4ee864d6")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 97.79 30.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7124,7 +7776,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -7222,7 +7874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48d71465-021a-4b14-89a3-8a671d3b7b43")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR020"
 			(at 260.985 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7282,7 +7934,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR015")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7299,7 +7951,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4987e3f3-2cc2-40a7-9b61-e2b1df1cdf5c")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 204.851 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7363,7 +8015,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7380,7 +8032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a9aea42-d12c-4b7f-b7ed-d93560e601b3")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 201.295 108.204 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7442,7 +8094,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7460,7 +8112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c59ab99-b42e-4722-952b-bd5a9757b07d")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR011"
 			(at 178.435 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7520,7 +8172,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR020")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7537,7 +8189,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50c42aea-5e0f-4c4c-9ab5-242b4030bfdf")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 88.646 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7601,7 +8253,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7618,7 +8270,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6339ca8e-2457-4134-87f9-b046b39c0f58")
-		(property "Reference" "C3"
+		(property "Reference" "C87"
 			(at 111.379 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7682,7 +8334,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "C3")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -7700,7 +8352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bfe102e-c69c-4771-94d4-9fccb69476bf")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR08"
 			(at 107.315 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7760,7 +8412,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR016")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7777,7 +8429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75f32507-a00c-4bb0-a715-accf3d1145c0")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 187.071 113.411 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7848,7 +8500,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7865,7 +8517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77498099-ac08-4b5e-8cc4-b38aa8fde1d3")
-		(property "Reference" "C4"
+		(property "Reference" "C88"
 			(at 120.269 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7929,7 +8581,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "C4")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -7947,7 +8599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79a979e3-3996-4625-902f-7d5d2a4166fc")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR021"
 			(at 262.255 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8007,7 +8659,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR014")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8025,7 +8677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e341334-f31a-4f10-8048-ded7e49189e5")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 95.25 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8096,7 +8748,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -8114,7 +8766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81562e24-35dd-4864-949a-66ac6e284f34")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR04"
 			(at 92.075 120.015 0)
 			(hide yes)
 			(show_name no)
@@ -8174,7 +8826,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR09")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8192,7 +8844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8166a942-95d9-4700-94da-1682670e1489")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 130.81 33.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8256,7 +8908,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -8273,7 +8925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "910f9cbc-1cf8-4b1f-a3d0-0b1c8d591fa1")
-		(property "Reference" "C8"
+		(property "Reference" "C93"
 			(at 275.463 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8337,7 +8989,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "C8")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -8355,7 +9007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "924ea562-edfc-415a-bd8f-ef0e05d3fc6c")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR018"
 			(at 250.825 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8415,7 +9067,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR012")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8433,7 +9085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3a0f1b2-4608-4a3b-87e7-681f67009387")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 43.815 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8493,7 +9145,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -8510,7 +9162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5c2a66d-72b8-4d6d-98bb-dac673358894")
-		(property "Reference" "C6"
+		(property "Reference" "C90"
 			(at 138.303 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8574,7 +9226,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "C6")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -8591,7 +9243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab03fae3-f920-4e68-9bfa-7b7eed340172")
-		(property "Reference" "C5"
+		(property "Reference" "C89"
 			(at 129.159 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8655,7 +9307,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "C5")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -8673,7 +9325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3097fd5-4a0e-47a1-9f17-a5f7f93ad2aa")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR07"
 			(at 107.315 75.565 0)
 			(hide yes)
 			(show_name no)
@@ -8733,7 +9385,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR011")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8751,7 +9403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bce7f960-6b36-4506-9d0c-f16b796a4a9d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR012"
 			(at 178.435 127.635 0)
 			(hide yes)
 			(show_name no)
@@ -8811,7 +9463,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR022")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8829,7 +9481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c56877ae-5f40-4526-816f-76da6e6aa605")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR019"
 			(at 260.985 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8889,7 +9541,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR010")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8906,7 +9558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca7af1dd-0e6a-4f6f-a399-68491860b0e1")
-		(property "Reference" "C10"
+		(property "Reference" "C94"
 			(at 221.234 109.855 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8970,7 +9622,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "C10")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -8988,7 +9640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d12c3737-a35f-4d2a-b066-e413d3da0de6")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR015"
 			(at 215.265 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9048,7 +9700,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR04")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9066,7 +9718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7d3fbf1-b35a-4a37-94dd-c020602094ec")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR022"
 			(at 273.685 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -9126,7 +9778,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR013")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9144,7 +9796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e26b4381-d04b-40a0-9a34-f369104c9cad")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR017"
 			(at 225.425 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9204,7 +9856,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR08")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9529,7 +10181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6333ca5-bce8-4394-9f1a-64e204138e1c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 212.725 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9589,7 +10241,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9606,7 +10258,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9666d4c-5bb0-447f-9cb9-f09f5a52a134")
-		(property "Reference" "C2"
+		(property "Reference" "C86"
 			(at 102.489 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9670,7 +10322,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "C2")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -9687,7 +10339,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9abdfac-3b54-4d32-a4c6-72d08a2fce8f")
-		(property "Reference" "C1"
+		(property "Reference" "C85"
 			(at 93.599 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9751,7 +10403,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "C1")
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -9769,7 +10421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eac062dd-3fa6-4b82-b29e-6f841d44e412")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 43.815 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9829,7 +10481,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -9847,7 +10499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eae8afb6-008c-4c0f-a636-5e48c5b161d9")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 262.255 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9913,7 +10565,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -9930,7 +10582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eed967a2-c888-4ec3-aa5d-37311a6fb907")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 88.646 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9994,7 +10646,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -10012,7 +10664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f64be13b-4dad-439d-b13b-cc75b6d01ecd")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR016"
 			(at 219.71 127.635 0)
 			(hide yes)
 			(show_name no)
@@ -10072,7 +10724,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR024")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10090,7 +10742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd905375-f8ed-4635-be89-3fc19f749ba6")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 177.165 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10150,7 +10802,7 @@
 		(instances
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
