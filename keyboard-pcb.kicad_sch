@@ -6105,17 +6105,17 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 247.015 66.04 180)
+		(at 274.955 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6bc3390b-c125-486c-9372-26b91aefa104")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.1874 66.04 0)
+			(at 280.7826 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6123,7 +6123,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -6753,17 +6753,17 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 274.955 66.04 0)
+		(at 247.015 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f527a79e-66d7-429a-be5f-f77e6b8b7f0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 280.7826 66.04 0)
+			(at 241.1874 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6771,7 +6771,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -7022,7 +7022,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 215.265 62.23 0)
+		(at 215.265 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7032,7 +7032,7 @@
 		(dnp no)
 		(uuid "0e7b9c8c-8549-4130-82a9-5ce0007a478f")
 		(property "Reference" "R5"
-			(at 216.535 60.96 0)
+			(at 218.948 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7043,7 +7043,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 216.535 63.5 0)
+			(at 220.472 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7942,7 +7942,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 210.185 62.23 180)
+		(at 210.185 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7952,7 +7952,7 @@
 		(dnp no)
 		(uuid "4987e3f3-2cc2-40a7-9b61-e2b1df1cdf5c")
 		(property "Reference" "R4"
-			(at 204.851 60.706 0)
+			(at 208.788 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7963,7 +7963,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 204.851 63.246 0)
+			(at 208.788 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9173,7 +9173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "10uF"
 			(at 138.303 109.855 0)
 			(show_name no)
 			(do_not_autoplace no)

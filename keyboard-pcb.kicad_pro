@@ -513,7 +513,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.254,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -530,7 +530,7 @@
       {
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.381,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
@@ -564,6 +564,14 @@
       {
         "netclass": "Power",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "D+"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "D-"
       }
     ]
   },
