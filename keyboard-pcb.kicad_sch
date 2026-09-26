@@ -8,195 +8,6 @@
 		(title "AwesomeKey")
 	)
 	(lib_symbols
-		(symbol "74xGxx:74AHCT1G125"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -2.54 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74AHCT1G125"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT* SG-*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "74AHCT1G125_0_1"
-				(polyline
-					(pts
-						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74AHCT1G125_1_1"
-				(pin input inverted
-					(at 0 10.16 270)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -15.24 0 0)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 0 180)
-					(length 7.62)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -4355,17 +4166,6 @@
 		)
 		(uuid "a9d0d922-b282-4fd8-bb1d-d50d00b3b626")
 	)
-	(text "LED Level Shifter\n"
-		(exclude_from_sim no)
-		(at 215.646 93.726 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.2381)
-			)
-		)
-		(uuid "bef09f63-0993-47a3-9cd5-1beae25e3fff")
-	)
 	(text "ESD\nProtection\n"
 		(exclude_from_sim no)
 		(at 248.285 48.768 0)
@@ -4376,12 +4176,6 @@
 			)
 		)
 		(uuid "fde7a53e-271f-450a-afec-cc2d08ea706e")
-	)
-	(junction
-		(at 178.435 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02b69c6a-572c-4d1a-ac32-9e589f5098db")
 	)
 	(junction
 		(at 43.815 110.49)
@@ -4418,12 +4212,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a1286a9-6f11-47cc-bbf2-427ce166f041")
-	)
-	(junction
-		(at 219.71 120.015)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "342922ad-329e-4708-9b68-ad97c930e604")
 	)
 	(junction
 		(at 127.635 111.125)
@@ -4540,6 +4328,12 @@
 		(uuid "dda38962-f88a-4913-90e9-695b87cd8534")
 	)
 	(junction
+		(at 196.85 108.585)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb52ca1d-65f6-49d8-a4b0-dafb0fb8b0e6")
+	)
+	(junction
 		(at 212.725 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4606,6 +4400,16 @@
 			(type default)
 		)
 		(uuid "03609dff-67c3-46dc-8e88-f85147804842")
+	)
+	(wire
+		(pts
+			(xy 196.85 108.585) (xy 204.47 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0611c104-055a-4d1c-8bfc-5ac49e36351d")
 	)
 	(wire
 		(pts
@@ -4909,16 +4713,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 100.33) (xy 217.17 120.015)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44662f24-0ac7-4867-872f-00ceece039c3")
-	)
-	(wire
-		(pts
 			(xy 92.075 111.125) (xy 92.075 113.665)
 		)
 		(stroke
@@ -4976,16 +4770,6 @@
 			(type default)
 		)
 		(uuid "5387b619-6f2c-4258-b4b3-74e757dccdd5")
-	)
-	(wire
-		(pts
-			(xy 219.71 120.015) (xy 219.71 121.285)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54c7285d-704e-4c4a-b867-14645a5ecde2")
 	)
 	(wire
 		(pts
@@ -5079,16 +4863,6 @@
 	)
 	(wire
 		(pts
-			(xy 178.435 97.79) (xy 178.435 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ef883bd-587c-44cb-b9c9-67495a4bdd5b")
-	)
-	(wire
-		(pts
 			(xy 48.895 26.67) (xy 46.355 26.67)
 		)
 		(stroke
@@ -5096,6 +4870,16 @@
 			(type default)
 		)
 		(uuid "70257788-0eb6-44b8-b162-ed1b90519e2b")
+	)
+	(wire
+		(pts
+			(xy 196.85 106.68) (xy 196.85 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "722e16be-c353-4b25-a357-43f42402b08a")
 	)
 	(wire
 		(pts
@@ -5189,6 +4973,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 108.585) (xy 196.85 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814b486e-0be5-4a78-a400-b9f73bd68ac2")
+	)
+	(wire
+		(pts
 			(xy 41.275 26.67) (xy 41.275 27.94)
 		)
 		(stroke
@@ -5209,16 +5003,6 @@
 	)
 	(wire
 		(pts
-			(xy 178.435 99.06) (xy 219.71 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d7f850-938c-40de-8562-9d5cf0bbb23a")
-	)
-	(wire
-		(pts
 			(xy 109.855 106.045) (xy 118.745 106.045)
 		)
 		(stroke
@@ -5236,16 +5020,6 @@
 			(type default)
 		)
 		(uuid "85bf203e-f9d1-42d6-984f-0f82e3049a31")
-	)
-	(wire
-		(pts
-			(xy 198.755 110.49) (xy 196.215 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86faf82e-cfae-47a1-98df-4e8f86eb5c83")
 	)
 	(wire
 		(pts
@@ -5276,16 +5050,6 @@
 			(type default)
 		)
 		(uuid "91433be9-9599-4450-8f62-ad2be758dcfd")
-	)
-	(wire
-		(pts
-			(xy 219.71 99.06) (xy 219.71 108.585)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "918144e3-9870-4464-acb6-eedf9aef0921")
 	)
 	(wire
 		(pts
@@ -5389,26 +5153,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 113.665) (xy 219.71 120.015)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b183c7e-86a1-4872-8432-b0c87af9436a")
-	)
-	(wire
-		(pts
-			(xy 178.435 121.285) (xy 178.435 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c710be8-7834-4647-b4e3-8972f7ef19a0")
-	)
-	(wire
-		(pts
 			(xy 109.855 111.125) (xy 118.745 111.125)
 		)
 		(stroke
@@ -5436,16 +5180,6 @@
 			(type default)
 		)
 		(uuid "a7ac3232-915e-42d0-a80f-2e23568cc239")
-	)
-	(wire
-		(pts
-			(xy 217.17 120.015) (xy 219.71 120.015)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf80c5d-8845-4679-a430-074a9d4c959f")
 	)
 	(wire
 		(pts
@@ -5649,6 +5383,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 100.33) (xy 196.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf98d567-6cbb-444b-a052-a30d485a7a0f")
+	)
+	(wire
+		(pts
 			(xy 212.725 31.75) (xy 205.105 31.75)
 		)
 		(stroke
@@ -5679,16 +5423,6 @@
 	)
 	(wire
 		(pts
-			(xy 178.435 99.06) (xy 178.435 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deb744e7-061f-47ef-9d37-e31fffd8ed03")
-	)
-	(wire
-		(pts
 			(xy 113.665 71.755) (xy 113.665 74.295)
 		)
 		(stroke
@@ -5716,16 +5450,6 @@
 			(type default)
 		)
 		(uuid "e585262c-269d-4a07-ac6c-2285f45e35e7")
-	)
-	(wire
-		(pts
-			(xy 183.515 100.33) (xy 217.17 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6125261-db5e-49d7-9f16-3db8faee5a8d")
 	)
 	(wire
 		(pts
@@ -5849,16 +5573,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 110.49) (xy 203.835 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5f4a6ae-9ba4-4c2e-b72a-decfaca0af7b")
-	)
-	(wire
-		(pts
 			(xy 173.355 69.85) (xy 173.355 71.12)
 		)
 		(stroke
@@ -5973,30 +5687,6 @@
 			)
 		)
 	)
-	(global_label "LED_5"
-		(shape input)
-		(at 241.3 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "148d5b72-2cce-4066-a3bc-c4bbbf42b525")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.6906 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "row2"
 		(shape input)
 		(at 24.765 66.04 180)
@@ -6093,7 +5783,7 @@
 			)
 		)
 	)
-	(global_label "LED_3v3"
+	(global_label "LED_in"
 		(shape output)
 		(at 24.765 83.82 180)
 		(fields_autoplaced yes)
@@ -6105,7 +5795,7 @@
 		)
 		(uuid "261c1eec-2c5c-4f89-9496-02f2dab4a48d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.9785 83.82 0)
+			(at 15.6113 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6621,30 +6311,6 @@
 			)
 		)
 	)
-	(global_label "LED_5"
-		(shape output)
-		(at 205.74 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "80808588-fd56-45d4-aec3-f91fdf364832")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.3494 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "col10"
 		(shape output)
 		(at 24.765 99.06 180)
@@ -6957,9 +6623,9 @@
 			)
 		)
 	)
-	(global_label "LED_3v3"
+	(global_label "LED_in"
 		(shape input)
-		(at 168.275 110.49 180)
+		(at 190.5 108.585 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6969,7 +6635,7 @@
 		)
 		(uuid "bf86bb73-6b0a-4f26-8ae5-c4816eba0cb0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.4885 110.49 0)
+			(at 181.3463 108.585 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7424,26 +7090,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 155.5551 90.8076) (xy 155.575 128.2673) (xy 229.235 128.27) (xy 229.235 90.805)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "eb116aa8-fcc3-4f8f-be86-d8594e7cad0e")
-		)
-	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(polyline
-			(pts
-				(xy 177.165 133.35) (xy 177.165 160.02) (xy 247.015 160.02) (xy 247.015 133.35)
+				(xy 189.865 133.35) (xy 189.865 154.305) (xy 238.125 154.305) (xy 238.125 133.35)
 			)
 			(stroke
 				(width 0)
@@ -7535,7 +7182,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 180.34 144.78 0)
+		(at 193.675 142.875 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7546,7 +7193,7 @@
 		(fields_autoplaced yes)
 		(uuid "023aaac3-9ebc-41a4-84e1-9018ad067e40")
 		(property "Reference" "H1"
-			(at 182.88 142.2399 0)
+			(at 196.215 140.3349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7557,7 +7204,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 182.88 144.7799 0)
+			(at 196.215 142.8749 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7568,7 +7215,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 180.34 144.78 0)
+			(at 193.675 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7579,7 +7226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 144.78 0)
+			(at 193.675 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7590,7 +7237,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 180.34 144.78 0)
+			(at 193.675 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7614,7 +7261,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 180.34 151.765 0)
+		(at 193.675 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7625,7 +7272,7 @@
 		(fields_autoplaced yes)
 		(uuid "03235e0a-7247-4c33-97d9-70d9ab693186")
 		(property "Reference" "H2"
-			(at 182.88 149.2249 0)
+			(at 196.215 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7636,7 +7283,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 182.88 151.7649 0)
+			(at 196.215 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7647,7 +7294,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 180.34 151.765 0)
+			(at 193.675 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7658,7 +7305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 151.765 0)
+			(at 193.675 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7669,7 +7316,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 180.34 151.765 0)
+			(at 193.675 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7845,85 +7492,6 @@
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 226.06 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12c9d217-86c0-4599-8a0a-498ede93355e")
-		(property "Reference" "H5"
-			(at 228.6 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 228.6 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 226.06 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 226.06 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3aee16a-ba85-4af1-8197-29e011d3c620")
-		)
-		(instances
-			(project "keyboard-pcb"
-				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -8772,85 +8340,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 201.295 110.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4a9aea42-d12c-4b7f-b7ed-d93560e601b3")
-		(property "Reference" "R3"
-			(at 201.295 108.204 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 201.295 113.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "smd_silkscreen:R_0402_1005Metric"
-			(at 201.295 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.295 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 201.295 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "07d52101-93a6-4d42-8e71-db0b52329dae")
-		)
-		(pin "2"
-			(uuid "58ff8350-adad-4d1a-9b99-8447b534afdd")
-		)
-		(instances
-			(project "keyboard-pcb"
-				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 106.045 84.455 180)
 		(unit 1)
@@ -8930,7 +8419,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 178.435 97.79 0)
+		(at 196.85 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8941,7 +8430,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c59ab99-b42e-4722-952b-bd5a9757b07d")
 		(property "Reference" "#PWR011"
-			(at 178.435 101.6 0)
+			(at 196.85 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8952,7 +8441,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 178.435 93.345 0)
+			(at 196.85 95.885 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8962,7 +8451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 178.435 97.79 0)
+			(at 196.85 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8973,7 +8462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 178.435 97.79 0)
+			(at 196.85 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8984,7 +8473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 178.435 97.79 0)
+			(at 196.85 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9241,94 +8730,6 @@
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xGxx:74AHCT1G125")
-		(at 183.515 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "75f32507-a00c-4bb0-a715-accf3d1145c0")
-		(property "Reference" "U2"
-			(at 187.071 113.411 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT1G125"
-			(at 187.071 115.951 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 183.515 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 183.515 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
-			(at 183.515 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ecc6baa7-db57-494d-8188-2f11a77666b2")
-		)
-		(pin "3"
-			(uuid "c02e0bc2-d798-4c88-a534-82578eb6e6d8")
-		)
-		(pin "5"
-			(uuid "09f9bd43-0928-4089-9faa-8fab8cef61e0")
-		)
-		(pin "1"
-			(uuid "0e7a8bd7-ca85-4197-820a-0d1a01f6c55e")
-		)
-		(pin "4"
-			(uuid "b6392f4f-5fbc-4ca1-a05b-dce79c689ab4")
-		)
-		(instances
-			(project "keyboard-pcb"
-				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9902,6 +9303,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 196.85 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9835b170-4be3-4fb8-a4e2-9ff2f7a41096")
+		(property "Reference" "R3"
+			(at 195.453 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 195.453 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "smd_silkscreen:R_0402_1005Metric"
+			(at 196.85 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 196.85 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6c33c64-7a75-43e1-8e1f-148050e1f14a")
+		)
+		(pin "1"
+			(uuid "01ca05e7-add2-423a-9e4d-5db44d7cdd30")
+		)
+		(instances
+			(project "keyboard-pcb"
+				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 43.815 111.76 0)
 		(unit 1)
@@ -10220,84 +9702,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 178.435 121.285 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bce7f960-6b36-4506-9d0c-f16b796a4a9d")
-		(property "Reference" "#PWR012"
-			(at 178.435 127.635 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 178.435 126.365 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 178.435 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 178.435 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 178.435 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "239a9628-308e-4714-9551-4ea7bb3453cb")
-		)
-		(instances
-			(project "keyboard-pcb"
-				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 260.985 52.07 0)
 		(unit 1)
@@ -10377,7 +9781,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 203.2 144.78 0)
+		(at 216.535 142.875 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10388,7 +9792,7 @@
 		(fields_autoplaced yes)
 		(uuid "c89e0948-dddc-475c-a692-661201c1eae5")
 		(property "Reference" "H3"
-			(at 205.74 142.2399 0)
+			(at 219.075 140.3349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10399,7 +9803,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 205.74 144.7799 0)
+			(at 219.075 142.8749 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10410,7 +9814,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 203.2 144.78 0)
+			(at 216.535 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10421,7 +9825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 144.78 0)
+			(at 216.535 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10432,7 +9836,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 203.2 144.78 0)
+			(at 216.535 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10449,87 +9853,6 @@
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 219.71 111.125 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca7af1dd-0e6a-4f6f-a399-68491860b0e1")
-		(property "Reference" "C94"
-			(at 221.234 109.855 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 221.234 112.395 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "smd_silkscreen:C_0402_1005Metric"
-			(at 219.71 111.125 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 111.125 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 219.71 111.125 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a99536bc-6e7f-425a-bd6e-d5488530f8aa")
-		)
-		(pin "2"
-			(uuid "3e0add78-2264-43b4-9d5d-d9def2af8ff7")
-		)
-		(instances
-			(project "keyboard-pcb"
-				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -11639,7 +10962,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 203.2 151.765 0)
+		(at 216.535 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11650,7 +10973,7 @@
 		(fields_autoplaced yes)
 		(uuid "f13546eb-394a-4789-b1d8-324cb655fe58")
 		(property "Reference" "H4"
-			(at 205.74 149.2249 0)
+			(at 219.075 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11661,7 +10984,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 205.74 151.7649 0)
+			(at 219.075 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11672,7 +10995,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 203.2 151.765 0)
+			(at 216.535 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11683,7 +11006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 151.765 0)
+			(at 216.535 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11694,7 +11017,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 203.2 151.765 0)
+			(at 216.535 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11711,84 +11034,6 @@
 			(project "keyboard-pcb"
 				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 219.71 121.285 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f64be13b-4dad-439d-b13b-cc75b6d01ecd")
-		(property "Reference" "#PWR016"
-			(at 219.71 127.635 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 219.71 126.365 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 121.285 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15fb4f44-9207-464d-86af-884aa99ea679")
-		)
-		(instances
-			(project "keyboard-pcb"
-				(path "/a41dad29-4328-40a3-b427-6ea31b74fde8"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -11873,7 +11118,7 @@
 		)
 	)
 	(sheet
-		(at 241.3 90.805)
+		(at 204.47 91.44)
 		(size 41.91 37.465)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11889,7 +11134,7 @@
 		)
 		(uuid "21d1d3fc-4e33-4264-88a8-3a369f33a01b")
 		(property "Sheetname" "LED Matrix"
-			(at 241.3 90.0934 0)
+			(at 204.47 90.7284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11900,7 +11145,7 @@
 			)
 		)
 		(property "Sheetfile" "led-matrix.kicad_sch"
-			(at 241.3 128.8546 0)
+			(at 204.47 129.4896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11911,7 +11156,7 @@
 			)
 		)
 		(pin "LED_in" input
-			(at 241.3 107.95 180)
+			(at 204.47 108.585 180)
 			(uuid "a45ec61b-74a6-4776-b56d-84d2752c38b6")
 			(effects
 				(font

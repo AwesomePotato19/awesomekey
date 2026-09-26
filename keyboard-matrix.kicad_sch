@@ -4279,7 +4279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-6.25U"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-6.25U-ReversedStabilizers"
 			(at 118.745 151.13 0)
 			(hide yes)
 			(show_name no)
