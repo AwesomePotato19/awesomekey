@@ -13639,7 +13639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Hotswap:MX-Hotswap-1U"
+		(property "Footprint" "MX_Hotswap:MX-Hotswap-2U"
 			(at 220.345 62.23 0)
 			(hide yes)
 			(show_name no)
