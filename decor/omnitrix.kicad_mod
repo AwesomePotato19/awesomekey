@@ -3,11 +3,11 @@
   (attr board_only exclude_from_pos_files exclude_from_bom)
   (fp_text reference "G***" (at 0 0) (layer "F.SilkS")
       (effects (font (size 1.5 1.5) (thickness 0.3)))
-    (uuid 94ba799a-2aed-469d-9d99-052065fe99cb)
+    (uuid 2a8e4859-9f5b-4ef1-adaf-bacd8a353cb5)
   )
   (fp_text value "LOGO" (at 0.75 0) (layer "F.SilkS") hide
       (effects (font (size 1.5 1.5) (thickness 0.3)))
-    (uuid 7b3ded5f-724e-4ff6-bb00-3c3cacdc5750)
+    (uuid e04e0db4-5436-4182-a935-466ce967ee65)
   )
   (fp_poly
     (pts
@@ -3931,5 +3931,5 @@
       (xy 0.014052 -9.936253)
     )
 
-    (stroke (width 0.000000) (type solid)) (fill solid) (layer "F.Cu") (uuid 368a5ee9-258e-4946-813d-5ec73dfc6e30))
+    (stroke (width 0.000000) (type solid)) (fill solid) (layer "F.SilkS") (uuid 2b6e6a64-a62c-4ee6-8b8e-21a5b1042642))
 )

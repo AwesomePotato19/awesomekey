@@ -5,4 +5,5 @@
 	(lib (name "MX_Only") (type "KiCad") (uri "${KIPRJMOD}/MX_Only.pretty") (options "") (descr ""))
 	(lib (name "Schematic_Library") (type "KiCad") (uri "${KIPRJMOD}/Schematic_Library") (options "") (descr ""))
 	(lib (name "smd_silkscreen") (type "KiCad") (uri "${KIPRJMOD}/smd_silkscreen.pretty") (options "") (descr ""))
+	(lib (name "decor") (type "KiCad") (uri "${KIPRJMOD}/decor") (options "") (descr ""))
 )
